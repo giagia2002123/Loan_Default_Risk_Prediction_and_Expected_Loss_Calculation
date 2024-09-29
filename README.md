@@ -1,6 +1,6 @@
 # Loan Default Risk Prediction and Expected Loss Calculation
 
-This project focuses on predicting the probability of loan default using machine learning techniques and utilizing these predictions to calculate the expected loss for each loan. The dataset used in this project contains various loan attributes, such as credit score, loan amount, interest rates, etc., which are employed to build the prediction model.
+This project focuses on predicting the probability of loan default using machine learning techniques and utilizing these predictions to calculate the expected loss for each loan. The dataset used in this project contains various loan attributes, such as loan_amt_outstanding, income, fico_score, etc., which are employed to build the prediction model.
 
 ## Project Overview
 
