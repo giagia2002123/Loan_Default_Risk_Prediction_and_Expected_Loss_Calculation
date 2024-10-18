@@ -29,10 +29,10 @@ This dataset is used to predict the probability of loan default based on various
 - **Data Preprocessing**: 
     - Handle missing values
     - Apply correlation test
-    - Feature selection
+    - Feature engineering
+    - Finding the optimal buckets
     - Handle class imbalance with SMOTE
     - Using train-test-split
-    - Apply standard scaler
 - **Modeling**: A variety of machine learning models are applied, including logistic regression and other classification techniques.
 - **Prediction of Default Probability**: The models output the likelihood of a loan defaulting.
 - **Expected Loss Calculation**: Using the predicted probability of default, the expected loss is calculated as:
@@ -61,6 +61,7 @@ This model provides a robust framework for predicting default risk and calculati
 
 After running the notebook, you will be able to:
 - View the entire process of preprocessing dataset.
+- Finding the optimal buckets.
 - Train the predictive model.
 - Make predictions for probability of default.
 - Calculate the expected loss.
